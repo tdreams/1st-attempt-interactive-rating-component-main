@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Interactive rating component</title>
+  <!-- My CSS -->
+	<link href="styles.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+
+  <!-- My JavaScript -->
+  <script src="script.js" defer></script>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+  <div class="rating-card">
+    <div class="content">
+      <img src="images/icon-star.svg" alt="star" class="star">
+      <h1 class="title"> How did we do?</h1>
+      <p class="desc">Please let us know how we did with your support request. All feedback is appreciated 
+        to help us improve our offering!</p>
+
+        <form class="form">
+          <div>
+            <div class="form__radio-group">
+              <input type="radio" id="rate-1" class="form__radio-input"
+              name="rate-value" value="1">
+              <label for="rate-1" class="form__radio-label">
+                <span class="form__radio-button">
+                  <div>1</div>
+                </span>
+              </label>
+            </div>
+            <div class="form__radio-group">
+              <input type="radio" id="rate-2" class="form__radio-input"
+              name="rate-value" value="2">
+              <label for="rate-2" class="form__radio-label">
+                <span class="form__radio-button">
+                  <div>2</div>
+                </span>
+              </label>
+            </div>
+            <div class="form__radio-group">
+              <input type="radio" id="rate-3" class="form__radio-input"
+              name="rate-value" value="3">
+              <label for="rate-3" class="form__radio-label">
+                <span class="form__radio-button">
+                  <div>3</div>
+                </span>
+              </label>
+            </div>
+            <div class="form__radio-group">
+              <input type="radio" id="rate-4" class="form__radio-input"
+              name="rate-value" value="4">
+              <label for="rate-4" class="form__radio-label">
+                <span class="form__radio-button">
+                  <div>4</div>
+                </span>
+              </label>
+            </div>
+            <div class="form__radio-group">
+              <input type="radio" id="rate-5" class="form__radio-input"
+              name="rate-value" value="5">
+              <label for="rate-5" class="form__radio-label">
+                <span class="form__radio-button">
+                  <div>5</div>
+                </span>
+              </label>
+            </div>
+          </div>
+          <button class="btn" type="submit">SUBMIT</button>
+        </form>
+
+    
+      <!-- <div class="thanks">
+        <img src="images/illustration-thank-you.svg" alt="thankyou" class="thanks-img">
+        <p class="result"> You selected 4 out of 5</p>
+        <h1 class="thanks__title">Thank you!</h1>
+        <p class="thanks__desc">We appreciate you taking the time to give rating.
+          If you ever need more support, don’t hesitate to get in touch!
+        </p>
+      </div> -->
+    
+      </div>
+
+
+
+  </div>
+
+
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="link">Frontend Mentor</a>. 
+    Coded by <a href="#" class="name">Fab</a>.
+  </div>
+</body>
+</html>
