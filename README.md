@@ -1,5 +1,9 @@
 # Frontend Mentor - Interactive rating component
 
+<p align="center">
+<img src="./feedback.PNG" alt="feedbacks">
+</p>
+
 ![Design preview for the Interactive rating component coding challenge](./design/desktop-preview.jpg)
 
 ## Welcome! 👋
